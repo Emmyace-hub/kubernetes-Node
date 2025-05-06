@@ -3,27 +3,27 @@ Diving into nodes on kubernetes
 
 * Start Minikube cluster using thge command:
    
-    minikube start
+      minikube start
 ![1](./img/1a.png)
 
 * Stop Minikube cluster :
 
-    minikube stop
+      minikube stop
 ![1](./img/1b.png)
 
 * DeleteMinikube Cluster:
     
-    minikube delete
+      minikube delete
 
 ![1](./img/1c.png)
 * View Node :
    
-    kubectl get nodes
+      kubectl get nodes
 ![1](./img/1d.png)
 
 * Inspect Node :
 
-    kubectl describe node <minikube>
+      kubectl describe node <minikube>
 
 
 ![1](./img/1e.png)
